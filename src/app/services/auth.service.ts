@@ -21,7 +21,7 @@ export class AuthService {
   login(credentials) {
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
-    return this.http.post('http://login-auth-service.herokuapp.com/api/authentication', JSON.stringify(credentials), { headers: headers})
+    return this.http.post('https://login-auth-service.herokuapp.com/api/authentication', JSON.stringify(credentials), { headers: headers})
     .map(response => {
       let result = response.json();
       
