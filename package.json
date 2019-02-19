@@ -9,7 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot -production"
   },
   "private": true,
   "dependencies": {
@@ -32,7 +32,8 @@
     "jquery": "^3.3.1",
     "path": "^0.12.7",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+     "typescript": "~2.3.3"
   },
   "devDependencies": {
     "@angular/language-service": "^4.2.4",
@@ -50,8 +51,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
-    "tslint": "~5.7.0",
-    "typescript": "~2.3.3"
+    "tslint": "~5.7.0"
   },
   "engines": {
     "node": "10.13.0",
